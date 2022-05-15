@@ -13,4 +13,7 @@ app.get('/moodbooster', function(req, res) {
 app.get('/moodbooster/old', function(req, res) {
   res.render('moodbooster-old.ejs');
 });
+app.get('/docs/facebook-60fps-final', function(req, res) {
+  res.render('facebook-60fps-final.ejs');
+});
 app.listen(1000)
