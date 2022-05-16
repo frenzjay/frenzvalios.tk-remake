@@ -1,5 +1,5 @@
 entrypoint = "index.js"
-
+run = ["node index.js"]
 [interpreter]
 command = [
     "prybar-nodejs",
