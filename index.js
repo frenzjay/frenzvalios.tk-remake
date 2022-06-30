@@ -16,4 +16,7 @@ app.get('/moodbooster/old', function(req, res) {
 app.get('/docs/facebook-60fps-final', function(req, res) {
   res.render('facebook-60fps-final.ejs');
 });
+app.get('/sayout/frenz', function(req, res) {
+  res.render('sayout.ejs');
+});
 app.listen(1000)
